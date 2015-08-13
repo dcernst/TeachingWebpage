@@ -1,3 +1,33 @@
-url: http://teaching.danaernst.com
-name: Dana C. Ernst
-description: Northern Arizona University
+url: http://dcernst.github.io/TeachingWebpage
+
+# Dependencies
+markdown: redcarpet
+redcarpet:
+ extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+highlighter: pygments
+
+# Permalinks
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+# permalink:           /:year/:month/:title/
+relative_permalinks: true
+
+# Setup
+title:               Dana C. Ernst
+tagline:             'Mathematics, Teaching, & Technology'
+description:         'Mathematics, Teaching, & Technology'
+url:                 'http://dcernst.github.io/TeachingWebpage'
+baseurl:             ''
+paginate:            10
+
+# About/contact
+author:
+  name:              Dana C. Ernst
+  url:               https://twitter.com/danaernst
+
+# Custom vars
+version:             1.0.0
+
+# GitHub
+github:
+  repo:             github.com/dcernst/dcernst.github.io
